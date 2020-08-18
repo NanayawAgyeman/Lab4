@@ -29,7 +29,7 @@ public class Book {
         if(refNumber.length() >= 3) {
             this.refNumber = refNumber;
         }else {
-            System.out.println("inappropriate input");
+            refNumber = "inappropriate input";
         }
     }
     public String getRefNumber(){
